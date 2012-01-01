@@ -9,9 +9,8 @@ BEGIN {
 }   
 
 BEGIN {
-use Error::Base;               # Find, install property-support-config files
-    
+    use Joe::Hello;
 }
 
 pass( 'Load modules.' );
-diag( "Testing Error::Base $Error::Base::VERSION" );
+diag( "Testing Joe::Hello $Joe::Hello::VERSION" );
