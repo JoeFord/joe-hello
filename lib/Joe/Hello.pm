@@ -1,17 +1,8 @@
 package Joe::Hello;
-#=========# MODULE USAGE
-#~ use Joe::Hello;
-#~ 
 
-#=========# PACKAGE BLOCK
+use 5.014002;
+use strict;
+use warnings;
 
-
-
-
-
-
-
-
-## END MODULE
 1;
-#============================================================================#
+
