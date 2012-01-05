@@ -1,3 +1,6 @@
+use warnings;
+use strict;
+
 use Test::More tests => 1;
 
 BEGIN {
@@ -14,3 +17,9 @@ BEGIN {
 
 pass( 'Load modules.' );
 diag( "Testing Joe::Hello $Joe::Hello::VERSION" );
+if  ( $Joe::Hello::VERSION ){
+    pass();
+}
+else{
+    fail();
+};
