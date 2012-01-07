@@ -1,17 +1,18 @@
 package Joe::Hello;
-#=========# MODULE USAGE
-#~ use Joe::Hello;
-#~ 
 
-#=========# PACKAGE BLOCK
+use 5.014002;
+use strict;
+use warnings;
 
-
-
+use version; our $VERSION = qv('v0.0.1');
 
 
 
 
 
-## END MODULE
+
+
+
+
 1;
-#============================================================================#
+
